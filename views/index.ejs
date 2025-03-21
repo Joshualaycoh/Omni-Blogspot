@@ -1,0 +1,21 @@
+<%- include("partials/header.ejs")  %>
+
+<div class="container">
+    <h2>Joshua Homo Blogspot</h2>
+    <% posts.forEach(function(post, index) { %>
+        <div class="card" style="margin-top: 2px;">
+            <div class="card-body" >
+                <h5 class="card-title"><%= post.title %></h5>
+                <p class="card-text"><%= post.content %></p>    
+                <form action="/delete" method="POST">
+                    <input type="hidden" name="index" value="<%= index %>">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </div>
+        </div>
+        
+    <% }); %>   
+    <a href="/compose" class="btn btn-primary" style="margin-top: 30px;">Compose</a>
+</div>
+
+<%- include("partials/footer.ejs") %>
