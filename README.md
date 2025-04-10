@@ -1,38 +1,44 @@
-# Pokemon-Pedia
+# Omni-Blogspot
 
-A simple Pokemon Pokedex web application built with JavaScript, HTML, and CSS, utilizing the Pokemon API.
+A blog application built with Node.js, Express, and EJS.
 
 ## About
 
-Pokemon-Pedia is a web application that allows users to search and view information about Pokemon. It fetches data from the Pokemon API to display details such as Pokemon names, images, types, and abilities. The application serves as a review of JavaScript functions and API fetching.
+Omni-Blogspot is a web-based blog application that allows users to create, read, and manage blog posts. It's built using Node.js for the backend, Express.js as the web application framework, and EJS for templating. This project served as a capstone project to demonstrate skills in Node.js, Express, and EJS.
 
 ## Features
 
--   **Pokemon Search:** Allows users to search for Pokemon by name or ID.
--   **Pokemon Details Display:** Displays Pokemon information, including name, image, types, and abilities.
--   **API Integration:** Fetches data from the Pokemon API.
--   **Dynamic Content Loading:** Updates the page with Pokemon information dynamically.
--   **User-Friendly Interface:** Simple and intuitive design.
+-   **Create Blog Posts:** Allows users to create new blog posts with titles and content.
+-   **Read Blog Posts:** Displays blog posts in a user-friendly format.
+-   **Dynamic Content:** Uses EJS to dynamically render blog content.
+-   **Backend Functionality:** Implemented with Node.js and Express.js.
+-   **Simple and Clean Design:** Focuses on content presentation.
 
 ## Technologies Used
 
--   **JavaScript:** Application logic, API fetching, and dynamic content updates.
--   **HTML:** Structure of the web page.
+-   **Node.js:** Backend JavaScript runtime environment.
+-   **Express.js:** Web application framework for Node.js.
+-   **EJS:** Templating engine for dynamic HTML generation.
+-   **JavaScript:** Client-side functionality (if any).
 -   **CSS:** Styling and layout of the web page.
 
+![Tech Stack](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![Tech Stack](https://img.shields.io/badge/EJS-orange?style=for-the-badge)
 ![Tech Stack](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Tech Stack](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Tech Stack](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Hosted Link
 
-You can view the Pokemon Pokedex here: [https://joshualaycoh.github.io/Pokemon-Pedia/](https://joshualaycoh.github.io/Pokemon-Pedia/)
+You can view the blog application here: [https://omni-blogspot.onrender.com/](https://omni-blogspot.onrender.com/)
 
 ## Installation and Setup
 
-1.  **Clone the Repository:** `git clone https://github.com/Joshualaycoh/Pokemon-Pedia.git`
-2.  **Navigate to the Directory:** `cd Pokemon-Pedia`
-3.  **Open `index.html`:** Open `index.html` in your web browser.
+1.  **Clone the Repository:** `git clone https://github.com/Joshualaycoh/Omni-Blogspot.git`
+2.  **Navigate to the Directory:** `cd Omni-Blogspot`
+3.  **Install Dependencies:** `npm install`
+4.  **Run the Application:** `node index.js` or `npm start`
+5.  **Access the Application:** Open your browser and navigate to `http://localhost:[port]` (usually `http://localhost:3000`).
 
 ## Contributing
 
